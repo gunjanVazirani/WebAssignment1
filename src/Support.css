@@ -1,0 +1,9 @@
+/* Support.css */
+.support-container {
+  margin-top: 20px; /* Add margin-top for spacing */
+  padding: 20px; /* Add padding for content spacing */
+  border: 1px solid #ccc; /* Add border for visual separation */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: #f9f9f9; /* Add background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}

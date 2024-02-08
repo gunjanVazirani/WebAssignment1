@@ -1,0 +1,18 @@
+/* UserSettingsButton.css */
+.user-settings-button {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Ensures the avatar is circular */
+}

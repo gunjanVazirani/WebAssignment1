@@ -1,0 +1,164 @@
+/* QuizManagement.css */
+.quiz-management-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+/* QuizManagement.css */
+.search-bar input {
+  padding: 8px 40px 8px 10px; /* Adjust padding */
+  width: 60%; /* Adjust width to cover 60% of the screen */
+  max-width: 550px; /* Limit maximum width */
+  border: 1px solid #ccc; /* Add grey border */
+  border-radius: 20px; /* Make it oval in shape */
+  background-image: url("search-icon.png"); /* Add search icon */
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 560px center; /* Position search icon */
+} /* QuizManagement.css */
+.search-bar {
+  position: relative; /* Position the container relative */
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px 40px 8px 10px;
+  width: 60%;
+  max-width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-image: url("search-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Move the search icon to the right */
+}
+
+.search-bar button {
+  position: absolute; /* Position the button absolutely */
+  top: 50%; /* Align to the middle vertically */
+  right: 10px; /* Adjust the right spacing */
+  transform: translateY(-50%); /* Center the button vertically */
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* QuizManagement.css */
+.quiz-management-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+table td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table td button:hover {
+  background-color: #0056b3;
+}
+
+.add-quiz-button {
+  margin-top: auto;
+  align-self: flex-end;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.add-quiz-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Add margin to the bottom of the table */
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+table td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table td button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Add Quiz button styles */
+.add-quiz-button {
+  margin-top: auto;
+  align-self: flex-end;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.add-quiz-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}

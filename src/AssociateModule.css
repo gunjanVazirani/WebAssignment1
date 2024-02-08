@@ -1,0 +1,31 @@
+.associate-module-container {
+  margin-top: 70px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.associate-module-container > * {
+  margin-bottom: 20px;
+}
+
+.module-list {
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  max-height: 200px; /* Set maximum height for the module list */
+}
+
+.module-item {
+  display: flex;
+  align-items: center;
+}
+
+.module-checkbox {
+  margin-right: 10px;
+}
+
+.save-button {
+  max-width: 150px; /* Adjust width if needed */
+  padding-top: 10px; /* Adjust top padding if needed */
+}
