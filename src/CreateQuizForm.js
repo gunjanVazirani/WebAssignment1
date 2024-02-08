@@ -47,30 +47,13 @@ const CreateQuizForm = () => {
 
   const handleCreateNew = () => {
     // Navigate to "/create-new-question" when clicking "Create New" button
-    const formData = {
-      name,
-      description,
-      timeLimitType,
-      numberOfDays,
-      courseStartDate,
-      personName,
-      existingQuestionsSelected,
-    };
-    navigate("/create-new-question", { state: { formData } });
+    navigate("/create-new-question");
   };
 
   const handleNextStep = () => {
     // Navigate to "/create-new-question" when clicking "Create New" button
-    const formData = {
-      name,
-      description,
-      timeLimitType,
-      numberOfDays,
-      courseStartDate,
-      personName,
-      existingQuestionsSelected,
-    };
-    navigate("/associate-module", { state: { formData } });
+
+    navigate("/associate-module");
   };
 
   return (

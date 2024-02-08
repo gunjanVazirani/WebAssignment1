@@ -69,9 +69,7 @@ const CreateQuestionForm = () => {
     }
     setSelectedOptions(newSelectedOptions);
   };
-  const location = useLocation();
-  const formData = location.state.formData;
-  console.log(formData);
+
   return (
     <div className="create-question-container">
       <h2>Add Question</h2>
